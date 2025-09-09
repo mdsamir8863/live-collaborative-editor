@@ -1,6 +1,14 @@
 @import "tailwindcss";
 
-:root {
+.btn {
+  @apply px-2 py-1 border rounded hover:bg-gray-200;
+}
+.active {
+  @apply bg-gray-300;
+}
+
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -23,4 +31,4 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
